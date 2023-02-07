@@ -66,6 +66,7 @@ Metadata is a json document with this fields:
 - docLink (link to the documentation that was used for it)
 
 Example of metadata.json
+```
 {
   "name": "pandas",
   "language": "python",
@@ -75,6 +76,7 @@ Example of metadata.json
   "date": "07/02/2023",
   "docLink": "https://pandas.pydata.org/docs/"
 }
+```
 
 Built with [🦜️🔗 LangChain](https://github.com/hwchase17/langchain)
 
