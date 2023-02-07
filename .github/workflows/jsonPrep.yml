@@ -1,0 +1,29 @@
+name: Parse and Combine JSON Files
+
+on:
+    push:
+        branches: [ main ]
+
+jobs:
+  parse_and_combine:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Parsing and Combining JSON Files
+      run: |
+        # Code to parse and combine JSON files
+        #!/bin/bash
+        result=""
+        for file in vectors/*.json; do
+          if [ -f "$file" ]; then
+            data=$(cat "$file")
+            result="$result$data,"
+          fi
+        done
+        
+        echo "{$result}" > ${GITHUB_WORKSPACE}/vectors/combined.json
+
+          
