@@ -24,7 +24,7 @@ Say goodbye to time-consuming scraping and embedding, and let <strong>DocsHUB</s
 
 
 
-## [Join Our parent projecs DocsGPT Discord](https://discord.gg/n5BX8dh8rU)
+## [Join Our Parent Project DocsGPT Discord](https://discord.gg/n5BX8dh8rU)
 
 
 ## Project structure
