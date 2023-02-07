@@ -15,7 +15,7 @@ Say goodbye to time-consuming scraping and embedding, and let <strong>DocsHUB</s
 
 
 ## Todo list
-- Github workflows to prepare json document with indexes
+- Github workflows to prepare json document with indexes ✅
 - Website with search and index
 - Plugin with DocsGPT
 - Plugins for other projects
@@ -50,7 +50,7 @@ Ensure the path is correct
   vectors/<language>/<library_name>/<version>/
 ```
 
-if its python for example use
+if its actual python (language itself) for example use
 ```
 vectors/python/.project/version/
 ```
