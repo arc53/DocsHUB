@@ -65,7 +65,18 @@ Metadata is a json document with this fields:
 - date (to know when it was last updated)
 - docLink (link to the documentation that was used for it)
 
-
+Example of metadata.json
+```
+{
+  "name": "pandas",
+  "language": "python",
+  "version": "1.5.3",
+  "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
+  "fullName": "Pandas",
+  "date": "07/02/2023",
+  "docLink": "https://pandas.pydata.org/docs/"
+}
+```
 
 Built with [🦜️🔗 LangChain](https://github.com/hwchase17/langchain)
 
