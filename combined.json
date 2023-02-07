@@ -1,4 +1,12 @@
 [{
+  "name": "langchain",
+  "language": "python",
+  "version": "0.0.79",
+  "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
+  "fullName": "LangChain",
+  "date": "07/02/2023",
+  "docLink": "https://langchain.readthedocs.io/en/latest/index.html"
+},{
   "name": "pandas",
   "language": "python",
   "version": "1.5.3",
@@ -14,6 +22,14 @@
   "fullName": "scikit-learn",
   "date": "07/02/2023",
   "docLink": "https://scikit-learn.org/stable/"
+},{
+  "name": "python",
+  "language": "python",
+  "version": "3.11.1",
+  "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
+  "fullName": "Python",
+  "date": "07/02/2023",
+  "docLink": "https://docs.python.org/3/"
 },{
   "name": "solidity",
   "language": "ethereum",
