@@ -1,8 +1,3 @@
-# DocsHUB
-##
-
-Like a vector storage
-
 <h1 align="center">
   DocsHUB 
 </h1>
