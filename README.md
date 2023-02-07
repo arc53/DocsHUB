@@ -50,7 +50,7 @@ Ensure the path is correct
   vectors/<language>/<library_name>/<version>/
 ```
 
-if its python for example use
+if its actual python (language itself) for example use
 ```
 vectors/python/.project/version/
 ```
