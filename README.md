@@ -34,7 +34,7 @@ ingestors - scripts to prepare and ingest data into vector stores
 
 
 ## How to use it:
-Just navigate to a folder you need vectors/<language>/<library_name>/<version>/
+Just navigate to a folder you need ```vectors/<language>/<library_name>/<version>/```
 And download:
 docs.index, faiss_store.pkl
 
@@ -44,12 +44,16 @@ Anyone can create a pull request. It should contain 3 files
 2. faiss_store.pkl
 3. metadata.json
 
-vectors/<language>/<library_name>/<version>/
+
+Ensure the path is correct 
+```
+  vectors/<language>/<library_name>/<version>/
+```
 
 if its python for example use
-
+```
 vectors/python/.project/version/
-
+```
 And in a corresponding path
 
 Metadata is a json document with this fields:
