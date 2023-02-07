@@ -1,0 +1,9 @@
+{
+  "name": "scikit-learn",
+  "language": "python",
+  "version": "1.2.1",
+  "description": "Machine Learning in Python",
+  "fullName": "scikit-learn",
+  "date": "07/02/2023",
+  "docLink": "https://scikit-learn.org/stable/"
+}
