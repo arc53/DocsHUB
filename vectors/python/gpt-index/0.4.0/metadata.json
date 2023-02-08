@@ -1,0 +1,9 @@
+{
+  "name": "gpt-index",
+  "language": "python",
+  "version": "0.4.0",
+  "description": "GPT Index is a project consisting of a set of data structures designed to make it easier to use large external knowledge bases with LLMs.",
+  "fullName": "LangChain",
+  "date": "08/02/2023",
+  "docLink": "https://gpt-index.readthedocs.io/en/latest/index.html"
+}
