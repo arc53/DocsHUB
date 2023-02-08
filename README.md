@@ -38,6 +38,10 @@ Just navigate to a folder you need ```vectors/<language>/<library_name>/<version
 And download:
 docs.index, faiss_store.pkl
 
+You can also use this index to find items you need in here (updated on every push)
+
+```https://d3dg1063dc54p9.cloudfront.net/combined.json```
+
 ## How to contribute:
 Anyone can create a pull request. It should contain 3 files
 1. docs.index
