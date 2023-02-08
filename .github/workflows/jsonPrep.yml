@@ -4,6 +4,10 @@ on:
     push:
         branches: [ main ]
 
+env:
+  AWS_REGION: eu-west-1
+  S3_BUCKET: docsgpt
+
 jobs:
   parse_and_combine:
     runs-on: ubuntu-latest
@@ -14,6 +18,12 @@ jobs:
       with:
         ssh-key: ${{ secrets.DEPLOY_KEY }}
 
+    - name: Configure AWS CLI
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ env.AWS_REGION }}
 
     - name: Parsing and Combining JSON Files
       run: |
@@ -27,5 +37,6 @@ jobs:
         git add combined.json
         git commit -m "Update combined.json"
         git push origin main
+        aws s3 cp combined.json s3://${{ env.S3_BUCKET }}/combined.json
 
           
