@@ -69,6 +69,19 @@ Metadata is a json document with this fields:
 - docLink (link to the documentation that was used for it)
 - model (embeddings model that was used to generate the vectors
 
+For embeddings model please use ```<providerName_modelName>```
+Example:
+```
+OpenAI:
+openai_text-embedding-ada-002
+
+Huggingface:
+huggingface_sentence-transformers/all-mpnet-base-v2
+
+Cohere:
+cohere_medium
+```
+
 Example of metadata.json
 ```
 {
