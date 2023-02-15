@@ -1,0 +1,10 @@
+{
+  "name": "javascript",
+  "language": "javascript",
+  "version": "ES2015",
+  "description": "is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
+  "fullName": "JavaScript",
+  "date": "15/02/2023",
+  "docLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "model": "openai_text-embedding-ada-002"
+}
