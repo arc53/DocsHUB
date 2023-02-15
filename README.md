@@ -16,9 +16,8 @@ Say goodbye to time-consuming scraping and embedding, and let <strong>DocsHUB</s
 
 ## Todo list
 - Github workflows to prepare json document with indexes ✅
-- Website with search and index
-- Plugin with DocsGPT
-- Plugins for other projects
+- Public list to make it usable (index) ✅
+- Website with search
 - API for search
 
 
