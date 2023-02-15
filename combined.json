@@ -1,4 +1,13 @@
 [{
+  "name": "javascript",
+  "language": "javascript",
+  "version": "ES2015",
+  "description": "is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
+  "fullName": "JavaScript",
+  "date": "15/02/2023",
+  "docLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "model": "openai_text-embedding-ada-002"
+},{
   "name": "langchain",
   "language": "python",
   "version": "0.0.79",
@@ -6,6 +15,15 @@
   "fullName": "LangChain",
   "date": "07/02/2023",
   "docLink": "https://langchain.readthedocs.io/en/latest/index.html"
+},{
+  "name": "langchain",
+  "language": "python",
+  "version": "0.0.87",
+  "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
+  "fullName": "LangChain",
+  "date": "15/02/2023",
+  "docLink": "https://langchain.readthedocs.io/en/latest/index.html",
+  "model": "openai_text-embedding-ada-002"
 },{
   "name": "pandas",
   "language": "python",
@@ -32,6 +50,15 @@
   "date": "07/02/2023",
   "docLink": "https://scikit-learn.org/stable/"
 },{
+  "name": "scikit-learn",
+  "language": "python",
+  "version": "1.2.1",
+  "description": "Machine Learning in Python",
+  "fullName": "scikit-learn",
+  "date": "15/02/2023",
+  "docLink": "https://scikit-learn.org/stable/",
+  "model": "openai_text-embedding-ada-002"
+},{
   "name": "python",
   "language": "python",
   "version": "3.11.1",
@@ -39,6 +66,15 @@
   "fullName": "Python",
   "date": "07/02/2023",
   "docLink": "https://docs.python.org/3/"
+},{
+  "name": "python",
+  "language": "python",
+  "version": "3.11.1",
+  "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
+  "fullName": "Python",
+  "date": "15/02/2023",
+  "docLink": "https://docs.python.org/3/",
+  "model": "openai_text-embedding-ada-002"
 },{
   "name": "gpt-index",
   "language": "python",
@@ -55,6 +91,15 @@
   "fullName": "Solidity",
   "date": "07/02/2023",
   "docLink": "https://docs.soliditylang.org/en/v0.8.18/"
+},{
+  "name": "solidity",
+  "language": "ethereum",
+  "version": "0.8.18",
+  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
+  "fullName": "Solidity",
+  "date": "15/02/2023",
+  "docLink": "https://docs.soliditylang.org/en/v0.8.18/",
+  "model": "openai_text-embedding-ada-002"
 },{
   "name": "serverless framework",
   "language": "serverless",
