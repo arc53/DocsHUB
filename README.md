@@ -33,7 +33,7 @@ ingestors - scripts to prepare and ingest data into vector stores
 
 
 ## How to use it:
-Just navigate to a folder you need ```vectors/<language>/<library_name>/<version>/```
+Just navigate to a folder you need ```vectors/<language>/<library_name>/<version>/<embeddings_model>```
 And download:
 docs.index, faiss_store.pkl
 
@@ -43,14 +43,14 @@ You can also use this index to find items you need in here (updated on every pus
 
 ## How to contribute:
 Anyone can create a pull request. It should contain 3 files
-1. docs.index
-2. faiss_store.pkl
+1. index.faiss
+2. index.pkl
 3. metadata.json
 
 
 Ensure the path is correct 
 ```
-  vectors/<language>/<library_name>/<version>/
+  vectors/<language>/<library_name>/<version>/<embeddings_model>
 ```
 
 if its actual python (language itself) for example use
@@ -67,6 +67,7 @@ Metadata is a json document with this fields:
 - fullName (Full project name not a slug name)
 - date (to know when it was last updated)
 - docLink (link to the documentation that was used for it)
+- model (embeddings model that was used to generate the vectors
 
 Example of metadata.json
 ```
@@ -77,7 +78,8 @@ Example of metadata.json
   "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
   "fullName": "Pandas",
   "date": "07/02/2023",
-  "docLink": "https://pandas.pydata.org/docs/"
+  "docLink": "https://pandas.pydata.org/docs/",
+  "model": "openai_text-embedding-ada-002"
 }
 ```
 
