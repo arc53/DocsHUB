@@ -46,4 +46,12 @@
   "fullName": "Solidity",
   "date": "07/02/2023",
   "docLink": "https://docs.soliditylang.org/en/v0.8.18/"
+},{
+  "name": "serverless framework",
+  "language": "serverless",
+  "version": "3.27.0",
+  "description": "Serverless Framework, the serverless application framework for building web, mobile and IoT applications on AWS Lambda, Azure Functions, Google CloudFunctions & more!",,
+  "fullName": "Serverless Framework",
+  "date": "13/02/2023",
+  "docLink": "https://serverless.com/framework/docs/"
 }]
