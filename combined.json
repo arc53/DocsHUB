@@ -1,12 +1,28 @@
 [{
-  "name": "javascript",
-  "language": "javascript",
-  "version": "ES2015",
-  "description": "is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
-  "fullName": "JavaScript",
-  "date": "15/02/2023",
-  "docLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "name": "serverless framework",
+  "language": "serverless",
+  "version": "3.27.0",
+  "description": "Serverless Framework, the serverless application framework for building web, mobile and IoT applications on AWS Lambda, Azure Functions, Google CloudFunctions & more!",
+  "fullName": "Serverless Framework",
+  "date": "13/02/2023",
+  "docLink": "https://serverless.com/framework/docs/"
+},{
+  "name": "pandas",
+  "language": "python",
+  "version": "1.5.3",
+  "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
+  "fullName": "Pandas",
+  "date": "07/02/2023",
+  "docLink": "https://pandas.pydata.org/docs/",
   "model": "openai_text-embedding-ada-002"
+},{
+  "name": "pandas",
+  "language": "python",
+  "version": "1.5.3",
+  "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
+  "fullName": "Pandas",
+  "date": "07/02/2023",
+  "docLink": "https://pandas.pydata.org/docs/"
 },{
   "name": "langchain",
   "language": "python",
@@ -25,30 +41,13 @@
   "docLink": "https://langchain.readthedocs.io/en/latest/index.html",
   "model": "openai_text-embedding-ada-002"
 },{
-  "name": "pandas",
+  "name": "gpt-index",
   "language": "python",
-  "version": "1.5.3",
-  "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
-  "fullName": "Pandas",
-  "date": "07/02/2023",
-  "docLink": "https://pandas.pydata.org/docs/"
-},{
-  "name": "pandas",
-  "language": "python",
-  "version": "1.5.3",
-  "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
-  "fullName": "Pandas",
-  "date": "07/02/2023",
-  "docLink": "https://pandas.pydata.org/docs/",
-  "model": "openai_text-embedding-ada-002"
-},{
-  "name": "scikit-learn",
-  "language": "python",
-  "version": "1.2.1",
-  "description": "Machine Learning in Python",
-  "fullName": "scikit-learn",
-  "date": "07/02/2023",
-  "docLink": "https://scikit-learn.org/stable/"
+  "version": "0.4.0",
+  "description": "GPT Index is a project consisting of a set of data structures designed to make it easier to use large external knowledge bases with LLMs.",
+  "fullName": "LangChain",
+  "date": "08/02/2023",
+  "docLink": "https://gpt-index.readthedocs.io/en/latest/index.html"
 },{
   "name": "scikit-learn",
   "language": "python",
@@ -59,13 +58,13 @@
   "docLink": "https://scikit-learn.org/stable/",
   "model": "openai_text-embedding-ada-002"
 },{
-  "name": "python",
+  "name": "scikit-learn",
   "language": "python",
-  "version": "3.11.1",
-  "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
-  "fullName": "Python",
+  "version": "1.2.1",
+  "description": "Machine Learning in Python",
+  "fullName": "scikit-learn",
   "date": "07/02/2023",
-  "docLink": "https://docs.python.org/3/"
+  "docLink": "https://scikit-learn.org/stable/"
 },{
   "name": "python",
   "language": "python",
@@ -76,21 +75,13 @@
   "docLink": "https://docs.python.org/3/",
   "model": "openai_text-embedding-ada-002"
 },{
-  "name": "gpt-index",
+  "name": "python",
   "language": "python",
-  "version": "0.4.0",
-  "description": "GPT Index is a project consisting of a set of data structures designed to make it easier to use large external knowledge bases with LLMs.",
-  "fullName": "LangChain",
-  "date": "08/02/2023",
-  "docLink": "https://gpt-index.readthedocs.io/en/latest/index.html"
-},{
-  "name": "solidity",
-  "language": "ethereum",
-  "version": "0.8.18",
-  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
-  "fullName": "Solidity",
+  "version": "3.11.1",
+  "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
+  "fullName": "Python",
   "date": "07/02/2023",
-  "docLink": "https://docs.soliditylang.org/en/v0.8.18/"
+  "docLink": "https://docs.python.org/3/"
 },{
   "name": "solidity",
   "language": "ethereum",
@@ -101,11 +92,20 @@
   "docLink": "https://docs.soliditylang.org/en/v0.8.18/",
   "model": "openai_text-embedding-ada-002"
 },{
-  "name": "serverless framework",
-  "language": "serverless",
-  "version": "3.27.0",
-  "description": "Serverless Framework, the serverless application framework for building web, mobile and IoT applications on AWS Lambda, Azure Functions, Google CloudFunctions & more!",
-  "fullName": "Serverless Framework",
-  "date": "13/02/2023",
-  "docLink": "https://serverless.com/framework/docs/"
+  "name": "solidity",
+  "language": "ethereum",
+  "version": "0.8.18",
+  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
+  "fullName": "Solidity",
+  "date": "07/02/2023",
+  "docLink": "https://docs.soliditylang.org/en/v0.8.18/"
+},{
+  "name": "javascript",
+  "language": "javascript",
+  "version": "ES2015",
+  "description": "is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
+  "fullName": "JavaScript",
+  "date": "15/02/2023",
+  "docLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "model": "openai_text-embedding-ada-002"
 }]
