@@ -1,0 +1,10 @@
+{
+  "name": "docsgpt",
+  "language": "docsgpt",
+  "version": "0.1.0",
+  "description": "GPT-powered chat for documentation search & assistance. ",
+  "fullName": "DocsGPT",
+  "date": "28/02/2023",
+  "docLink": "https://github.com/arc53/DocsGPT/wiki",
+  "model": "openai_text-embedding-ada-002"
+}
