@@ -7,14 +7,39 @@
   "date": "13/02/2023",
   "docLink": "https://serverless.com/framework/docs/"
 },{
-  "name": "docsgpt",
-  "language": "docsgpt",
-  "version": "0.1.0",
-  "description": "GPT-powered chat for documentation search & assistance. ",
-  "fullName": "DocsGPT",
-  "date": "28/02/2023",
-  "docLink": "https://github.com/arc53/DocsGPT/wiki",
+  "name": "solidity",
+  "language": "ethereum",
+  "version": "0.8.18",
+  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
+  "fullName": "Solidity",
+  "date": "15/02/2023",
+  "docLink": "https://docs.soliditylang.org/en/v0.8.18/",
   "model": "openai_text-embedding-ada-002"
+},{
+  "name": "solidity",
+  "language": "ethereum",
+  "version": "0.8.18",
+  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
+  "fullName": "Solidity",
+  "date": "07/02/2023",
+  "docLink": "https://docs.soliditylang.org/en/v0.8.18/"
+},{
+  "name": "javascript",
+  "language": "javascript",
+  "version": "ES2015",
+  "description": "is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
+  "fullName": "JavaScript",
+  "date": "15/02/2023",
+  "docLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "model": "openai_text-embedding-ada-002"
+},{
+  "name": "gpt-index",
+  "language": "python",
+  "version": "0.4.0",
+  "description": "GPT Index is a project consisting of a set of data structures designed to make it easier to use large external knowledge bases with LLMs.",
+  "fullName": "LangChain",
+  "date": "08/02/2023",
+  "docLink": "https://gpt-index.readthedocs.io/en/latest/index.html"
 },{
   "name": "pandas",
   "language": "python",
@@ -32,31 +57,6 @@
   "fullName": "Pandas",
   "date": "07/02/2023",
   "docLink": "https://pandas.pydata.org/docs/"
-},{
-  "name": "langchain",
-  "language": "python",
-  "version": "0.0.79",
-  "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
-  "fullName": "LangChain",
-  "date": "07/02/2023",
-  "docLink": "https://langchain.readthedocs.io/en/latest/index.html"
-},{
-  "name": "langchain",
-  "language": "python",
-  "version": "0.0.87",
-  "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
-  "fullName": "LangChain",
-  "date": "15/02/2023",
-  "docLink": "https://langchain.readthedocs.io/en/latest/index.html",
-  "model": "openai_text-embedding-ada-002"
-},{
-  "name": "gpt-index",
-  "language": "python",
-  "version": "0.4.0",
-  "description": "GPT Index is a project consisting of a set of data structures designed to make it easier to use large external knowledge bases with LLMs.",
-  "fullName": "LangChain",
-  "date": "08/02/2023",
-  "docLink": "https://gpt-index.readthedocs.io/en/latest/index.html"
 },{
   "name": "scikit-learn",
   "language": "python",
@@ -92,29 +92,38 @@
   "date": "07/02/2023",
   "docLink": "https://docs.python.org/3/"
 },{
-  "name": "solidity",
-  "language": "ethereum",
-  "version": "0.8.18",
-  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
-  "fullName": "Solidity",
+  "name": "langchain",
+  "language": "python",
+  "version": "0.0.87",
+  "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
+  "fullName": "LangChain",
   "date": "15/02/2023",
-  "docLink": "https://docs.soliditylang.org/en/v0.8.18/",
+  "docLink": "https://langchain.readthedocs.io/en/latest/index.html",
   "model": "openai_text-embedding-ada-002"
 },{
-  "name": "solidity",
-  "language": "ethereum",
-  "version": "0.8.18",
-  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
-  "fullName": "Solidity",
-  "date": "07/02/2023",
-  "docLink": "https://docs.soliditylang.org/en/v0.8.18/"
+  "name": "langchain",
+  "language": "python",
+  "version": "0.0.109",
+  "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
+  "fullName": "LangChain",
+  "date": "13/03/2023",
+  "docLink": "https://langchain.readthedocs.io/en/latest/index.html",
+  "model": "openai_text-embedding-ada-002"
 },{
-  "name": "javascript",
-  "language": "javascript",
-  "version": "ES2015",
-  "description": "is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
-  "fullName": "JavaScript",
-  "date": "15/02/2023",
-  "docLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "name": "langchain",
+  "language": "python",
+  "version": "0.0.79",
+  "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
+  "fullName": "LangChain",
+  "date": "07/02/2023",
+  "docLink": "https://langchain.readthedocs.io/en/latest/index.html"
+},{
+  "name": "docsgpt",
+  "language": "docsgpt",
+  "version": "0.1.0",
+  "description": "GPT-powered chat for documentation search & assistance. ",
+  "fullName": "DocsGPT",
+  "date": "28/02/2023",
+  "docLink": "https://github.com/arc53/DocsGPT/wiki",
   "model": "openai_text-embedding-ada-002"
 }]
