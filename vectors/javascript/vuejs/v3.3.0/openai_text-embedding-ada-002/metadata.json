@@ -1,0 +1,10 @@
+{
+  "name": "vuejs",
+  "language": "javascript",
+  "version": "v3.3.0",
+  "description": "An approachable, performant and versatile framework for building web user interfaces. ",
+  "fullName": "Vue.js",
+  "date": "16/03/2023",
+  "docLink": "https://vuejs.org/",
+  "model": "openai_text-embedding-ada-002"
+}

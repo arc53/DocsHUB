@@ -1,0 +1,10 @@
+{
+  "name": "react",
+  "language": "javascript",
+  "version": "v18.2.0",
+  "description": "A JavaScript library for building user interfaces\nGet Started\n",
+  "fullName": "React",
+  "date": "16/03/2023",
+  "docLink": "https://reactjs.org/",
+  "model": "openai_text-embedding-ada-002"
+}

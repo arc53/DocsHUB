@@ -1,0 +1,10 @@
+{
+  "name": "vitejs",
+  "language": "javascript",
+  "version": "v4.2.0",
+  "description": "Get ready for a development environment that can finally catch up with you.",
+  "fullName": "Vite",
+  "date": "16/03/2023",
+  "docLink": "https://vitejs.dev/",
+  "model": "openai_text-embedding-ada-002"
+}
