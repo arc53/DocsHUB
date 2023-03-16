@@ -24,6 +24,33 @@
   "date": "07/02/2023",
   "docLink": "https://docs.soliditylang.org/en/v0.8.18/"
 },{
+  "name": "react",
+  "language": "javascript",
+  "version": "v18.2.0",
+  "description": "A JavaScript library for building user interfaces\nGet Started\n",
+  "fullName": "React",
+  "date": "16/03/2023",
+  "docLink": "https://reactjs.org/",
+  "model": "openai_text-embedding-ada-002"
+},{
+  "name": "vitejs",
+  "language": "javascript",
+  "version": "v4.2.0",
+  "description": "Get ready for a development environment that can finally catch up with you.",
+  "fullName": "Vite",
+  "date": "16/03/2023",
+  "docLink": "https://vitejs.dev/",
+  "model": "openai_text-embedding-ada-002"
+},{
+  "name": "vuejs",
+  "language": "javascript",
+  "version": "v3.3.0",
+  "description": "An approachable, performant and versatile framework for building web user interfaces. ",
+  "fullName": "Vue.js",
+  "date": "16/03/2023",
+  "docLink": "https://vuejs.org/",
+  "model": "openai_text-embedding-ada-002"
+},{
   "name": "javascript",
   "language": "javascript",
   "version": "ES2015",
