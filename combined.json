@@ -24,14 +24,22 @@
   "date": "07/02/2023",
   "docLink": "https://scikit-learn.org/stable/"
 },{
-  "name": "python",
+  "name": "pandas",
   "language": "python",
-  "version": "3.11.1",
-  "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
-  "fullName": "Python",
-  "date": "15/02/2023",
-  "docLink": "https://docs.python.org/3/",
+  "version": "1.5.3",
+  "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
+  "fullName": "Pandas",
+  "date": "07/02/2023",
+  "docLink": "https://pandas.pydata.org/docs/",
   "model": "openai_text-embedding-ada-002"
+},{
+  "name": "pandas",
+  "language": "python",
+  "version": "1.5.3",
+  "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
+  "fullName": "Pandas",
+  "date": "07/02/2023",
+  "docLink": "https://pandas.pydata.org/docs/"
 },{
   "name": "python",
   "language": "python",
@@ -41,6 +49,15 @@
   "date": "29/02/2023",
   "docLink": "https://docs.python.org/3/",
   "model": "huggingface_sentence-transformers-all-mpnet-base-v2"
+},{
+  "name": "python",
+  "language": "python",
+  "version": "3.11.1",
+  "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
+  "fullName": "Python",
+  "date": "15/02/2023",
+  "docLink": "https://docs.python.org/3/",
+  "model": "openai_text-embedding-ada-002"
 },{
   "name": "python",
   "language": "python",
@@ -60,15 +77,6 @@
 },{
   "name": "langchain",
   "language": "python",
-  "version": "0.0.109",
-  "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
-  "fullName": "LangChain",
-  "date": "13/03/2023",
-  "docLink": "https://langchain.readthedocs.io/en/latest/index.html",
-  "model": "openai_text-embedding-ada-002"
-},{
-  "name": "langchain",
-  "language": "python",
   "version": "0.0.87",
   "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
   "fullName": "LangChain",
@@ -84,47 +92,22 @@
   "date": "07/02/2023",
   "docLink": "https://langchain.readthedocs.io/en/latest/index.html"
 },{
-  "name": "pandas",
+  "name": "langchain",
   "language": "python",
-  "version": "1.5.3",
-  "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
-  "fullName": "Pandas",
-  "date": "07/02/2023",
-  "docLink": "https://pandas.pydata.org/docs/",
+  "version": "0.0.109",
+  "description": "Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not.",
+  "fullName": "LangChain",
+  "date": "13/03/2023",
+  "docLink": "https://langchain.readthedocs.io/en/latest/index.html",
   "model": "openai_text-embedding-ada-002"
 },{
-  "name": "pandas",
-  "language": "python",
-  "version": "1.5.3",
-  "description": "Pandas is alibrary providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
-  "fullName": "Pandas",
-  "date": "07/02/2023",
-  "docLink": "https://pandas.pydata.org/docs/"
-},{
-  "name": "solidity",
-  "language": "ethereum",
-  "version": "0.8.18",
-  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
-  "fullName": "Solidity",
-  "date": "15/02/2023",
-  "docLink": "https://docs.soliditylang.org/en/v0.8.18/",
-  "model": "openai_text-embedding-ada-002"
-},{
-  "name": "solidity",
-  "language": "ethereum",
-  "version": "0.8.18",
-  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
-  "fullName": "Solidity",
-  "date": "07/02/2023",
-  "docLink": "https://docs.soliditylang.org/en/v0.8.18/"
-},{
-  "name": "vitejs",
+  "name": "react",
   "language": "javascript",
-  "version": "v4.2.0",
-  "description": "Get ready for a development environment that can finally catch up with you.",
-  "fullName": "Vite",
+  "version": "v18.2.0",
+  "description": "A JavaScript library for building user interfaces\nGet Started\n",
+  "fullName": "React",
   "date": "16/03/2023",
-  "docLink": "https://vitejs.dev/",
+  "docLink": "https://reactjs.org/",
   "model": "openai_text-embedding-ada-002"
 },{
   "name": "javascript",
@@ -145,23 +128,31 @@
   "docLink": "https://vuejs.org/",
   "model": "openai_text-embedding-ada-002"
 },{
-  "name": "react",
+  "name": "vitejs",
   "language": "javascript",
-  "version": "v18.2.0",
-  "description": "A JavaScript library for building user interfaces\nGet Started\n",
-  "fullName": "React",
+  "version": "v4.2.0",
+  "description": "Get ready for a development environment that can finally catch up with you.",
+  "fullName": "Vite",
   "date": "16/03/2023",
-  "docLink": "https://reactjs.org/",
+  "docLink": "https://vitejs.dev/",
   "model": "openai_text-embedding-ada-002"
 },{
-  "name": "docsgpt",
-  "language": "docsgpt",
-  "version": "0.1.0",
-  "description": "GPT-powered chat for documentation search & assistance. ",
-  "fullName": "DocsGPT",
-  "date": "28/02/2023",
-  "docLink": "https://github.com/arc53/DocsGPT/wiki",
+  "name": "solidity",
+  "language": "ethereum",
+  "version": "0.8.18",
+  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
+  "fullName": "Solidity",
+  "date": "15/02/2023",
+  "docLink": "https://docs.soliditylang.org/en/v0.8.18/",
   "model": "openai_text-embedding-ada-002"
+},{
+  "name": "solidity",
+  "language": "ethereum",
+  "version": "0.8.18",
+  "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
+  "fullName": "Solidity",
+  "date": "07/02/2023",
+  "docLink": "https://docs.soliditylang.org/en/v0.8.18/"
 },{
   "name": "docsgpt",
   "language": "docsgpt",
@@ -171,4 +162,13 @@
   "date": "28/02/2023",
   "docLink": "https://github.com/arc53/DocsGPT/wiki",
   "model": "huggingface_sentence-transformers-all-mpnet-base-v2"
+},{
+  "name": "docsgpt",
+  "language": "docsgpt",
+  "version": "0.1.0",
+  "description": "GPT-powered chat for documentation search & assistance. ",
+  "fullName": "DocsGPT",
+  "date": "28/02/2023",
+  "docLink": "https://github.com/arc53/DocsGPT/wiki",
+  "model": "openai_text-embedding-ada-002"
 }]
