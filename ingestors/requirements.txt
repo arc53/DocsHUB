@@ -50,7 +50,7 @@ SQLAlchemy==1.4.46
 tiktoken==0.1.2
 tokenizers==0.13.2
 tqdm==4.64.1
-transformers==4.26.0
+transformers==4.30.0
 typing-inspect==0.8.0
 typing_extensions==4.4.0
 urllib3==1.26.14
