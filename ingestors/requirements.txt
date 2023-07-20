@@ -32,7 +32,7 @@ openai==0.26.4
 packaging==23.0
 pycryptodomex==3.17
 pydantic==1.10.4
-Pygments==2.14.0
+Pygments==2.15.0
 python-dotenv==0.21.1
 pytz==2022.7.1
 PyYAML==6.0
